@@ -1,0 +1,14 @@
+.btn {
+    color: black;
+    font-weight: 500;
+}
+
+  
+.btn-procedimentos {
+    background: #9BF798;
+    box-shadow: -1.0e-15px 9px 18px rgba(155, 247, 152, 0.7);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+}
