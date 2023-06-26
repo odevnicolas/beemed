@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import 'tailwindcss/tailwind.css';
 
 const RedesSociais: React.FC = () => {
   return (
