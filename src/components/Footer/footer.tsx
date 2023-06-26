@@ -1,5 +1,7 @@
 import React from 'react';
 import '@/components/Footer/footer.css'
+import 'tailwindcss/tailwind.css';
+
 
 const Footer: React.FC = () => {
   return (
