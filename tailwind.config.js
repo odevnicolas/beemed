@@ -23,13 +23,13 @@ module.exports = {
         'colorButton': '#9AF890',
         'BackColor': 'rgb(33, 39, 32)',
         'ColorFooter': '#495748',
-      },
-      boxShadow: {
-        'custom': '-1.2246467996456087e-15px 20px 18px 0px rgba(155, 247, 152, 0.60)',
         'ContainerProced1': '#CBF3D0',
         'ContainerProced2': '#ABF5B1',
         'ContainerFrase': '#848484',
         'ContainerFraseProced': '#568654',
+      },
+      boxShadow: {
+        'custom': '-1.2246467996456087e-15px 20px 18px 0px rgba(155, 247, 152, 0.60)',
       },
     },
   },

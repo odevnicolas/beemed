@@ -3,13 +3,11 @@ import Header from '@/components/Header/header';
 import Footer from '@/components/Footer/footer';
 import Social from '@/components/Social/social';
 import Proced from '@/components/TipoProced/proced';
-import Carrossel from '@/components/Carrossel/Carrossel';
 
 const Home: React.FC = () => {
     return (
       <div>
         <Header />
-        <Carrossel />
         <Social />
         <Proced />
         <div style={{ height: '900px' }}/>

@@ -13,19 +13,19 @@ const Header: React.FC = () => {
       </Link>
       </div>
       <div className="ml-[9%] flex gap-10">
-      <Link href="/sobre">
+      <Link className='mt-[2%]' href="/sobre">
         <button className="text-black font-medium ">Sobre</button>
       </Link>
-      <Link href="/medico">
+      <Link className='mt-[2%]' href="/medico">
         <button className="text-black font-medium">Cadastro Médico</button>
       </Link>
-      <Link href="/clinico"> 
+      <Link className='mt-[2%]' href="/clinico"> 
         <button className="text-black font-medium">Cadastro Clínicas/Hospitais</button>
       </Link>
-      <Link href="/login">   
+      <Link className='mt-[2%]' href="/login">   
         <button className="text-black font-medium">Login</button>
       </Link>  
-      <Link href="/procedimentos">
+      <Link className='mt-[1.2%]'href="/procedimentos">
         <button className="text-black btn-procedimentos ml-5">Procedimentos</button>
       </Link>  
       </div>
