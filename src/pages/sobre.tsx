@@ -31,7 +31,7 @@ const Sobre: React.FC = () => {
           </div>
         </div>
       </div>
-    <div className="py-16">
+    <div className=" mt-20">
     <Footer />
     </div>
     </div>

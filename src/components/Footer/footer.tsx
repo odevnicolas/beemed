@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div>
-            <img className="z-10 ml-6 z-10" src="./icone.svg" alt="Logo da Empresa" width="95%" />
+            <img className="z-10 ml-6" src="./icone.svg" alt="Logo da Empresa" width="95%" />
           </div>
           <div>
             <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
