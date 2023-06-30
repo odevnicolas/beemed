@@ -1,11 +1,26 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import './header.css';
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import { Fragment } from 'react';
+import Modal from '@/components/AuthModal/modal';
 
 
-const Header: React.FC = () => {
+const Header = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
+  <Fragment>
+    <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>
     <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
       <div className="ml-[2%]">
       <Link href="/">
@@ -21,10 +36,8 @@ const Header: React.FC = () => {
       </Link>
       <Link className='mt-[2%]' href="/clinico"> 
         <button className="text-black font-medium">Cadastro Clínicas/Hospitais</button>
-      </Link>
-      <Link className='mt-[2%]' href="/login">   
-        <button className="text-black font-medium">Login</button>
       </Link>  
+        <button className="text-black font-medium mt-[1%]" onClick={handleOpenModal}>Login</button>
       <Link className='mt-[1.2%]'href="/procedimentos">
         <button className="text-black btn-procedimentos ml-5">Procedimentos</button>
       </Link>  
@@ -32,6 +45,7 @@ const Header: React.FC = () => {
       <div>
       </div>
     </header>
+  </Fragment>
   );
 };
 

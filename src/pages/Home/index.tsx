@@ -1,9 +1,11 @@
+
 import React from 'react';
 import Header from '@/components/Header/header';
 import Footer from '@/components/Footer/footer';
 import Social from '@/components/Social/social';
 import Proced from '@/components/TipoProced/proced';
 import FormHome from '@/components/FormHome/form-home'
+
 
 const Home: React.FC = () => {
     return (
@@ -63,9 +65,9 @@ const Home: React.FC = () => {
   </div>
 
   <div className=" mt-20">
-   <Footer/>
+    <Footer/>
   </div>
-  </div>
+</div>
     );
   };
 
