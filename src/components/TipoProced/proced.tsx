@@ -1,13 +1,23 @@
+"use client"
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import Carousel from '@/components/Carosel/carousel'
 
-
+const images = [
+  './Carrossel1.svg',
+  './Carrossel2.svg',
+  './Carrossel3.svg',
+];
 
 const TipoProced: React.FC = () => {
   return (
     <div className="float-right w-[45%] mr-8 mt-[1%] p-10">
-      <div className=" float-left  -ml-[145%] -mt-40 -z-10">
-       <img src="./Carrossel1.svg" className="object-cover" width={700} />
+      <div className=" float-left  -ml-[145%] -mt-40 -z-50">
+       <Carousel 
+       images={images}
+       imageClassName="w-[700px]"
+       imageStyle={{ objectFit: 'cover' }}
+       />
       </div>
       <p className="text-center ml-[10%] text-[18px] text-ContainerFrase">Qual procedimento você precisa?</p>
       <div className="grid grid-cols-2 gap-8 mt-5">

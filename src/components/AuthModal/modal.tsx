@@ -58,10 +58,8 @@ interface ModalProps {
     }
   },[email,name,password,login])
   return(
-    <div className='fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm  h-full w-full bg-center bg-no-repeat bg-fixed bg-cover'>
-      <div className=' w-full h-full lg:bg-opacity-50'>
-        <nav className=" px-20">
-        </nav>
+    <div className='fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm  h-full w-full bg-center bg-no-repeat bg-fixed bg-cover z-[9999px]'>
+      <div className=' w-full h-full lg:bg-opacity-50 z-50'>
         <div className="flex justify-center">
           <div className='bg-[#495748] rounded-2xl px-16 py-3 self-center mt-2 lg:w-2/5 lg:max-w-md roudend-md w-full'>
             <div className=" flex flex-col">

@@ -21,7 +21,7 @@ const Header = () => {
   return (
   <Fragment>
     <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>
-    <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
+    <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%] z-50">
       <div className="ml-[2%]">
       <Link href="/">
         <img src="/logo.svg" alt="Logo da Empresa" width={140} height={140} />
