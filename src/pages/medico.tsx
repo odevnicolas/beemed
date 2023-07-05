@@ -5,9 +5,11 @@ import Social from '@/components/Social/social';
 import FormMedico from '@/components/Form-medico/form-medico'
 
 const Medico: React.FC = () => {
+  const activeRoute = '/medico';
+  
   return (
     <div>
-    <Header2 />
+    <Header2 activeRoute={activeRoute} />
     <Social/>
     <div className="relative -mt-28 -z-10">
       <div>

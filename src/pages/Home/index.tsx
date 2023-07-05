@@ -7,12 +7,13 @@ import FormHome from '@/components/FormHome/form-home'
 
 
 const Home: React.FC = () => {
+  const activeRote = '/'
     return (
-      <div>
-        <Header />
+    <div>
+        <Header activeRoute={activeRote} />
         <Social />
         <Proced />
-    <div className=" mt-[52%] mb-[5%] ml-[15%] mb-1 bg-[#9BF798]  rounded-3xl w-[1070px] h-80">
+    <div className=" mt-[52%] mb-[5%] ml-[15%]  bg-[#9BF798]  rounded-3xl w-[1070px] h-80">
         <div className=" px-20 py-14">
           <p className="text-[16px] leading-8 font-normal text-black">
             A Beemed sonha em tornar as cirurgias e os<br/> procedimentos médicos acessíveis para mais pessoas. Para <br/> alcançar esse objetivo, a empresa negocia <br/> previamente com hospitais, médicos e laboratórios<br/> e oferece aos pacientes pacotes de procedimentos cirúrgicos<br/> e médicos com opções de pagamento facilitadas e valores mais atrativos.

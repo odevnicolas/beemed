@@ -5,9 +5,11 @@ import Social from '@/components/Social/social';
 import FormClinico from '@/components/Form-Clinico/form-clinico'
 
 const Clinica: React.FC = () => {
+  const activeRoute = '/clinico';
+  
   return ( 
     <div>
-      <Header2 />
+      <Header2 activeRoute={activeRoute} />
       <div className="relative -mt-28 -z-10">
        <div className="">
         <img src="./banner.png" className="min-w-full" alt='Banner'/>
