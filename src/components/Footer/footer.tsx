@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         <div className="z-10 text-right text-gray-200 text-xs mr-[11em]">
           <p>© 2023 Beemed HealthtechTecnologia LTDA. Todos os direitos reservados. CNPJ: 42.821.631/0001-11</p>
           <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <img className=" -z-20 mt-[-14%]" src="./sobfooter.svg" alt="footerback" width="60%" />
+            <img className=" -z-40 mt-[-14%]" src="./sobfooter.svg" alt="footerback" width="60%" />
           </div>
         </div>
       </div>

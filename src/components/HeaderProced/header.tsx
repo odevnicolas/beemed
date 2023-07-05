@@ -16,20 +16,20 @@ const HeaderProced = () => {
         </Link>
       </div>
       <div className="flex gap-10 z-10">
-        <Link className={`mt-[2%] ${router.pathname === '/cirurgias' ? 'underline text-green-500' : ''}`} href="/cirurgias">
-          <button className={`text-black font-medium ${router.pathname === '/cirurgias' ? 'text-green-500' : ''}`}>Cirurgias</button>
+        <Link className={`mt-[2%] ${router.pathname === '/cirurgias' ? 'underline text-green-500' : 'hover:underline'}`} href="/cirurgias">
+          <button className={`text-black font-medium ${router.pathname === '/cirurgias' ? 'text-green-500' : 'hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone'}`}>Cirurgias</button>
         </Link>
         <Link className={`mt-[2%] ${router.pathname === '/estetica' ? 'underline text-green-500' : ''}`} href="/estetica">
-          <button className={`text-black font-medium ${router.pathname === '/estetica' ? 'text-green-500' : ''}`}>Estética</button>
+          <button className={`text-black font-medium ${router.pathname === '/estetica' ? 'text-green-500' : 'hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone'}`}>Estética</button>
         </Link>
         <Link className={`mt-[2%] ${router.pathname === '/exames' ? 'underline text-green-500' : ''}`} href="/exames"> 
-          <button className={`text-black font-medium ${router.pathname === '/exames' ? 'text-green-500' : ''}`}>Exames</button>
+          <button className={`text-black font-medium ${router.pathname === '/exames' ? 'text-green-500' : 'hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone'}`}>Exames</button>
         </Link>  
         <Link className={`mt-[2%] ${router.pathname === '/odontologia' ? 'underline text-green-500' : ''}`} href="/odontologia"> 
-          <button className={`text-black font-medium ${router.pathname === '/odontologia' ? 'text-green-500' : ''}`}>Odontologia</button>
+          <button className={`text-black font-medium ${router.pathname === '/odontologia' ? 'text-green-500' : 'hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone'}`}>Odontologia</button>
         </Link>  
         <Link className={`mt-[2%] ${router.pathname === '/telemedicina' ? 'underline text-green-500' : ''}`} href="/telemedicina"> 
-          <button className={`text-black font-medium ${router.pathname === '/telemedicina' ? 'text-green-500' : ''}`}>Telemedicina</button>
+          <button className={`text-black font-medium ${router.pathname === '/telemedicina' ? 'text-green-500' : 'hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone'}` }>Telemedicina</button>
         </Link>  
       </div>
       <div>
