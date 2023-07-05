@@ -39,7 +39,7 @@ const Header2 = () => {
         </Link>
           <button className="btn mt-1 hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone"
           onClick={handleOpenModal}>Login</button>
-        <Link href="/procedimentos">
+        <Link href="/cirurgias">
           <button className="btn btn-procedimentos ml-5">Procedimentos</button>
         </Link>
       </div>

@@ -11,9 +11,13 @@ const images = [
 
 const TipoProced: React.FC = () => {
   return (
-    <div className="float-right w-[45%] mr-10 mt-[0.55%] p-10">
-      <div className=" float-left -ml-[140%] -mt-40 -z-20">
-       <img src="./Carrossel1.svg" className="object-cover" width={770} />
+    <div className="float-right w-[45%] mr-8 mt-[1%] p-10">
+      <div className=" float-left  -ml-[141.5%] mt-[-28%] -z-50">
+       <Carousel 
+       images={images}
+       imageClassName="h-[705px]"
+       imageStyle={{ objectFit: 'cover'}}
+       />
       </div>
       <p className="text-center ml-[10%] text-[18px] text-ContainerFrase">Qual procedimento você precisa?</p>
       <div className="grid grid-cols-2 gap-8 mt-5">

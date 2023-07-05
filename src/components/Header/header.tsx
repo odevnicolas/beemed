@@ -24,7 +24,7 @@ const Header = () => {
     <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
       <div className="ml-[2%] z-10">
       <Link href="/">
-        <img src="/logo.svg" alt="Logo da Empresa" width={140} height={140} />
+        <img src="/BeemedBlack.svg" alt="Logo da Empresa" width={140} height={140} />
       </Link>
       </div>
       <div className="ml-[9%] flex gap-10 z-10">
@@ -38,7 +38,7 @@ const Header = () => {
         <button className="text-black font-medium">Cadastro Clínicas/Hospitais</button>
       </Link>  
         <button className="text-black font-medium mt-[1%]" onClick={handleOpenModal}>Login</button>
-      <Link className='mt-[1.2%]'href="/procedimentos">
+      <Link className='mt-[1.2%]'href="/cirurgias">
         <button className="text-black btn-procedimentos ml-5">Procedimentos</button>
       </Link>  
       </div>
