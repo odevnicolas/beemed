@@ -1,7 +1,13 @@
+"use client"
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import Carousel from '@/components/Carosel/carousel'
 
-
+const images = [
+  './Carrossel1.svg',
+  './Carrossel2.svg',
+  './Carrossel3.svg',
+];
 
 const TipoProced: React.FC = () => {
   return (
