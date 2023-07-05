@@ -9,7 +9,8 @@ const Procedimentos: React.FC = () => {
     <div>
     <Header />
     <Social />
-    <h1>Procedimentos</h1>
+    <div className='h-[1000px]'>
+    </div>
     <Footer />
     </div>
   );

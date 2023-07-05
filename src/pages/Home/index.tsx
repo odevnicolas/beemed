@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         <Header />
         <Social />
         <Proced />
-    <div className=" mt-[50%] ml-36 mb-5 bg-[#9BF798]  rounded-3xl w-[1070px] h-80">
+    <div className=" mt-[52%] mb-[5%] ml-[15%] mb-1 bg-[#9BF798]  rounded-3xl w-[1070px] h-80">
         <div className=" px-20 py-14">
           <p className="text-[16px] leading-8 font-normal text-black">
             A Beemed sonha em tornar as cirurgias e os<br/> procedimentos médicos acessíveis para mais pessoas. Para <br/> alcançar esse objetivo, a empresa negocia <br/> previamente com hospitais, médicos e laboratórios<br/> e oferece aos pacientes pacotes de procedimentos cirúrgicos<br/> e médicos com opções de pagamento facilitadas e valores mais atrativos.
@@ -26,11 +26,11 @@ const Home: React.FC = () => {
           </div>
         </div>
     </div>
-    <div className="relative">
-      <img src="./flayer.svg" width={1200} height={1100} className=" inset-0 z-0 -mt-8" />
+    <div className="relative ml-[2%]">
+      <img src="./flayer.svg" width={1200} height={1100} className="inset-0 z-0 -mt-10" />
     <div className="absolute inset-0 flex flex-col justify-start">
-      <img src="./texto.svg" width={1360} className="z-10 -mt-[17%]" />
-      <div className=" px-20 py-20 -mt-[20%]">
+      <img src="./texto.svg" width={1470} className="z-0 -mt-[17%]" />
+      <div className="ml-10 px-20 py-20 -mt-[20%]">
         <h1 className="text-colorButton text-6xl font-medium">Benefícios</h1>
         <p className="text-[18px] leading-10 font-normal text-[#585858] mt-5">
           Sabemos o quanto pode ser desafiador<br/> encontrar alternativas de qualidade ao SUS <br/> ou aos planos de saúde tradicionais. É por <br/> isso que criamos uma solução inovadora <br/> para revolucionar o setor da saúde e<br/> atender às necessidades dos pacientes mais necessitados.
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
         <h1 className="text-colorButton text-3xl font-medium text-center -mt-[6%]">Sem longas filas</h1>
         <p className="text-[#585858] text-[16px] text-center mt-[4%]">Adeus às esperas intermináveis por um <br/> atendimento médico de qualidade.</p>
       </div>
-      <div className=" mt-20 ml-9 mb-5 bg-[#9BF798]  rounded-3xl w-[1070px] h-[500px]">
+      <div className=" mt-[15%] ml-[12%] mb-5 bg-[#9BF798]  rounded-3xl w-[1070px] h-[500px]">
         <div className=" px-20 py-14">
           <div className="float-right -ml-[40%]">
               <h1 className="text-[60px] leading-[70px] text-black font-semibold">
@@ -60,11 +60,11 @@ const Home: React.FC = () => {
  </div>
 </div>
 
-  <div className=" mt-40 justify-center items-center">
+  <div className=" mt-[23%] justify-center items-center">
     <FormHome/>
   </div>
 
-  <div className=" mt-20">
+  <div className=" mt-[12%]">
     <Footer/>
   </div>
 </div>

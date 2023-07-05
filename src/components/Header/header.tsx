@@ -22,14 +22,14 @@ const Header = () => {
   <Fragment>
     <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>
     <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
-      <div className="ml-[2%]">
+      <div className="ml-[2%] z-10">
       <Link href="/">
         <img src="/logo.svg" alt="Logo da Empresa" width={140} height={140} />
       </Link>
       </div>
-      <div className="ml-[9%] flex gap-10">
+      <div className="ml-[9%] flex gap-10 z-10">
       <Link className='mt-[2%]' href="/sobre">
-        <button className="text-black font-medium ">Sobre</button>
+        <button className="text-black font-medium">Sobre</button>
       </Link>
       <Link className='mt-[2%]' href="/medico">
         <button className="text-black font-medium">Cadastro Médico</button>

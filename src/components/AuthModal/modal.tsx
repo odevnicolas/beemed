@@ -7,7 +7,7 @@ import axios from 'axios';
 import { signIn } from 'next-auth/react';
 import router, { useRouter } from 'next/router';
 import { FcGoogle } from 'react-icons/fc';
-import { FaGithub } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
 import 'tailwindcss/tailwind.css';
 import { AiOutlineClose } from 'react-icons/ai'
 
@@ -58,8 +58,8 @@ interface ModalProps {
     }
   },[email,name,password,login])
   return(
-    <div className='fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm  h-full w-full bg-center bg-no-repeat bg-fixed bg-cover'>
-      <div className=' w-full h-full lg:bg-opacity-50'>
+    <div className='z-20 fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm  h-full w-full bg-center bg-no-repeat bg-fixed bg-cover'>
+      <div className='mt-[1.9%] w-full h-full lg:bg-opacity-50'>
         <nav className=" px-20">
         </nav>
         <div className="flex justify-center">
@@ -133,7 +133,7 @@ interface ModalProps {
                   transition
                 '
                 >
-                  <FaGithub size={30}/>
+                  <FaFacebookF size={27} color='#3b5998'/>
                 </div>
             </div>
             <p className="text-black mt-6 text-center">
