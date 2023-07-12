@@ -57,6 +57,7 @@ interface ModalProps {
       console.log(error)
     }
   },[email,name,password,login])
+
   return(
     <div className='z-20 fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm  h-full w-full bg-center bg-no-repeat bg-fixed bg-cover'>
       <div className='mt-[1.9%] w-full h-full lg:bg-opacity-50'>
