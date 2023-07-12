@@ -1,4 +1,6 @@
 import React from 'react';
+import 'tailwindcss/tailwind.css';
+
 
 const Footer: React.FC = () => {
   return (
@@ -28,7 +30,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div>
-            <img className="z-10 ml-6 z-10" src="./icone.svg" alt="Logo da Empresa" width="95%" />
+            <img className="z-10 ml-6" src="./icone.svg" alt="Logo da Empresa" width="95%" />
           </div>
           <div>
             <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
@@ -42,7 +44,7 @@ const Footer: React.FC = () => {
         <div className="z-10 text-right text-gray-200 text-xs mr-[11em]">
           <p>© 2023 Beemed HealthtechTecnologia LTDA. Todos os direitos reservados. CNPJ: 42.821.631/0001-11</p>
           <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <img className=" -z-20 mt-[-14%]" src="./sobfooter.svg" alt="footerback" width="60%" />
+            <img className=" -z-40 mt-[-14%]" src="./sobfooter.svg" alt="footerback" width="60%" />
           </div>
         </div>
       </div>

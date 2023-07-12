@@ -4,15 +4,15 @@ import 'tailwindcss/tailwind.css';
 
 const RedesSociais: React.FC = () => {
   return (
-    <div className="rounded-s-[45px] bg-verde-social p-6 w-34 mt-[14%] float-right">
+    <div className="z-20 rounded-s-[45px] bg-verde-social p-6 w-34 mt-[19%] float-right fixed top-0 right-0">
       <a href="https://api.whatsapp.com" target="_blank" rel="noopener noreferrer">
-        <FaWhatsapp size={32} className="mb-5 text-verde-social-icons hover:text-verde-social-icons-hover" />
+        <FaWhatsapp size={32} className="z-20 mb-5 text-verde-social-icons hover:text-verde-social-icons-hover" />
       </a>
       <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-        <FaInstagram size={32} className="mb-5 text-verde-social-icons hover:text-verde-social-icons-hover" />
+        <FaInstagram size={32} className="z-20 mb-5 text-verde-social-icons hover:text-verde-social-icons-hover" />
       </a>
       <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin size={32} className="text-verde-social-icons hover:text-verde-social-icons-hover" />
+        <FaLinkedin size={32} className="z-20 text-verde-social-icons hover:text-verde-social-icons-hover" />
       </a>
     </div>
   );

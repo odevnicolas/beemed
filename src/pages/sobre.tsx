@@ -1,12 +1,15 @@
+
 import React from 'react';
 import Header from '@/components/Header/header';
 import Footer from '@/components/Footer/footer';
 import Social from '@/components/Social/social';
 
 const Sobre: React.FC = () => {
+  const activeRoute = '/sobre';
+  
   return (
     <div>
-    <Header />
+    <Header activeRoute={activeRoute} />
     <Social />
       <div className="-z-20 relative">
         <img src="./beemed.png" className=" -z-20 -mt-28"/>
@@ -31,7 +34,7 @@ const Sobre: React.FC = () => {
           </div>
         </div>
       </div>
-    <div className="py-16">
+    <div className=" mt-20">
     <Footer />
     </div>
     </div>

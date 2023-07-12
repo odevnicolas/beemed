@@ -5,10 +5,12 @@ import Social from '@/components/Social/social';
 import FormClinico from '@/components/Form-Clinico/form-clinico'
 
 const Clinica: React.FC = () => {
+  const activeRoute = '/clinico';
+  
   return ( 
     <div>
-      <Header2 />
-      <div className="relative -mt-28 -z-10">
+      <Header2 activeRoute={activeRoute} />
+      <div className="relative -mt-28">
        <div className="">
         <img src="./banner.png" className="min-w-full" alt='Banner'/>
         <Social/>
@@ -30,9 +32,9 @@ const Clinica: React.FC = () => {
             <img src='./medclinica.png' width={220} height={350}/>
           </div>
         </div>
-        <div className="bg-BackColor">
-          <div className=" py-16 px-32">
-            <img src='./medal.png' className="ml-24 -z-50" width={65} height={80}/>
+        <div className="bg-BackColor ">
+          <div className="py-16 px-32 ">
+            <img src='./medal.png' className="ml-24" width={65} height={80}/>
             <div className="justify-center items-center">
               <h1 className="text-colorButton text-6xl ml-44 -mt-16 font-medium">Com Beemed</h1>
               <p className="ml-44 text-white text-xl leading-[60px] font-normal mt-6">

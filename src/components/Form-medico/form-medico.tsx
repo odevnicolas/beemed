@@ -46,7 +46,7 @@ const FormMedico = () => {
       </div>
       <div className="mb-6">
         <textarea
-          className="placeholder-black shadow-custom rounded-3xl w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+          className=" resize-none placeholder-black shadow-custom rounded-3xl w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
           placeholder="Assunto"
         ></textarea>
       </div>
