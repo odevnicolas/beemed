@@ -31,14 +31,6 @@ module.exports = {
       boxShadow: {
         'custom': '-1.2246467996456087e-15px 20px 18px 0px rgba(155, 247, 152, 0.60)',
       },
-      fontFamily: {
-        NowAltBlack: ['NowAlt-Black'],
-        NowAltBold: ['NowAlt-Bold'],
-        NowAltLigth: ['NowAlt-Light'],
-        NowAltMedium: ['NowAlt-Medium'],
-        NowAltRegular: ['NowAlt-Regular'],
-        NowAltThin: ['NowAlt-Thin']
-      },
     },
   },
   plugins: [],
