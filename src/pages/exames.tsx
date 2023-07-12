@@ -6,7 +6,7 @@ const exames: React.FC = () => {
   return (
   <div>
     <HeaderProced />
-    <div className='flex justify-center items-center py-14'>
+    <div className='flex justify-center items-center py-14 h-[33em]'>
       <div className=' float-left'>
         <p className=' text-3xl ml-6 text-center'>Ainda não estamos com exames <br/> disponíveis, agradecemos a compreensão <br/> enquanto trabalhamos para estabelecer os <br/> procedimentos necessários.</p>
       </div>

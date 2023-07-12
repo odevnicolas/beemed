@@ -6,7 +6,7 @@ const telemedicina: React.FC = () => {
   return (
   <div>
     <HeaderProced />
-      <div className='flex justify-center items-center py-14'>
+      <div className='flex justify-center items-center py-14 h-[33em]'>
         <div className=' float-left'>
           <p className=' text-3xl ml-6 text-center'>Ainda não estamos com o serviço de <br/> telemedicina disponível, agradecemos a <br/> compreensão enquanto trabalhamos para <br/> estabelecer os procedimentos necessários.</p>
         </div>
