@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({activeRoute}) => {
       </Link>  
         <button className="text-black font-medium mt-[1%] hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone" onClick={handleOpenModal}>Login</button>
       <Link className='mt-[1.2%]'href="/cirurgias">
-        <button className="text-black btn-procedimentos ml-5 font-NowAltRegular">Procedimentos</button>
+        <button className="text-black btn-procedimentos ml-5 font-NowAltRegular font-NowAlt-Black">Procedimentos</button>
       </Link>  
       </div>
       <div>
