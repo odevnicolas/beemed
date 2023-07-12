@@ -2,10 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NowAltBlack';
+  src: url('/fonts/NowAlt-Black') format('otf');
+}
+@font-face {
+  font-family: 'NowAltBold';
+  src: url('/fonts/NowAlt-Bold') format('otf');
+}
+@font-face {
+  font-family: 'NowAltLight';
+  src: url('/fonts/NowAlt-Light') format('otf');
+}
+@font-face {
+  font-family: 'NowAltMedium';
+  src: url('/fonts/NowAlt-Medium') format('otf');
+}
+@font-face {
+  font-family: 'NowAltRegular';
+  src: url('/fonts/NowAlt-Regular') format('otf');
+}
+@font-face {
+  font-family: 'NowAltThin';
+  src: url('/fonts/NowAlt-Thin') format('otf');
+}
+
+
 *{
   margin: 0;
   padding: 0;
 }
+
 
 :root {
   --foreground-rgb: 255, 255, 255;
