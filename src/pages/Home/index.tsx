@@ -5,7 +5,6 @@ import Social from '@/components/Social/social';
 import Proced from '@/components/TipoProced/proced';
 import FormHome from '@/components/FormHome/form-home'
 
-
 const Home: React.FC = () => {
   const activeRote = '/'
     return (

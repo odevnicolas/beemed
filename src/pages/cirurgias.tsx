@@ -19,146 +19,148 @@ const Cirurgias: React.FC = () => {
       <HeaderProced />
       <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-[80px] p-[80px] ml-[4%] mr-[4%] mb-[7%] z-20'>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <div
+          className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]'
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>Tenho interesse</button>
+        </div>
+
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
+          <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
+          <p className='text-center mt-1'>Valor: R$100</p>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>
 
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[100%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
           <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
           <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
-            Tenho interesse
-          </button>
-        </div>
-
-        <div className='z-20 bg-white border border-black p-10 rounded-3xl h-[115%]' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <h3 className='text-lg font-semibold text-center mt-2'>Nome do Produto 1</h3>
-          <img src='/imagem1.jpg' alt='Imagem do produto' className='mx-auto' />
-          <p className='text-center mt-1'>Valor: R$100</p>
-          <button className='mx-auto mt-4 block py-2 px-4 bg-rgb(155, 247, 152) rounded' style={{ width: 'fit-content' }}>
+          <button className='bg-green-400 rounded-3xl mt-10 mr-2 h-10 w-40'>
             Tenho interesse
           </button>
         </div>

@@ -10,7 +10,7 @@ const Clinica: React.FC = () => {
   return ( 
     <div>
       <Header2 activeRoute={activeRoute} />
-      <div className="relative -mt-28 -z-10">
+      <div className="relative -mt-28">
        <div className="">
         <img src="./banner.png" className="min-w-full" alt='Banner'/>
         <Social/>
@@ -32,8 +32,8 @@ const Clinica: React.FC = () => {
             <img src='./medclinica.png' width={220} height={350}/>
           </div>
         </div>
-        <div className="bg-BackColor -z-10">
-          <div className=" py-16 px-32 ">
+        <div className="bg-BackColor ">
+          <div className="py-16 px-32 ">
             <img src='./medal.png' className="ml-24" width={65} height={80}/>
             <div className="justify-center items-center">
               <h1 className="text-colorButton text-6xl ml-44 -mt-16 font-medium">Com Beemed</h1>
