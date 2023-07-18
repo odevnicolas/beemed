@@ -11,13 +11,13 @@ const Medico: React.FC = () => {
     <div>
     <Header2 activeRoute={activeRoute} />
     <Social/>
-    <div className="relative -mt-28 -z-10">
+    <div className="relative -mt-28 ">
       <div>
         <img src="./banner2.png"/>
         <div className=" -mt-[650px] ml-36">
-        <img src="med-banner.png" height={900} width={700} className="-z-50"></img>
+        <img src="med-banner.png" height={900} width={700} className=""></img>
         </div>
-        <div className="z-50">
+        <div className="">
             <h2 className="text-colorGreen text-5xl mr-44 md:relative md:-mt-[330px] md:flex md:justify-end leading-[48px] font-normal">
               Transforme <br/>a saúde conosco
             </h2>
@@ -31,7 +31,7 @@ const Medico: React.FC = () => {
          <img src="./letreiro.png" className=" mt-16"/>
          <div className=" w-auto h-auto py-10">
           <div className=" mt-16 justify-center items-center">
-            <FormMedico/>
+[]            <FormMedico/>
           </div>
         </div>
         <div className=" bg-ColorFooter">

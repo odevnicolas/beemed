@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NowAlt-Black';
+  src: url('../../public/fonts/NowAlt-Black.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
