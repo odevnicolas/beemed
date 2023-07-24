@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({activeRoute}) => {
         <button className={`text-black font-medium hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone ${activeRoute === '/sobre' ? 'text-green-500' : 'text-black'}`}>Sobre</button>
       </Link>
       <Link className="mt-[2%]"  href="/medico">
-        <button className="text-black font-medium hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone">Cadastro Médico</button>
+        <button className={`text-black font-medium hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone ${activeRoute === '/medico' ? 'text-green-500' : 'text-black'}`}>Cadastro Médico</button>
       </Link>
       <Link className="mt-[2%]" href="/clinico"> 
         <button className="text-black font-medium hover:underline decoration-solid decoration-colorButton decoration-2 box-decoration-clone">Cadastro Clínicas/Hospitais</button>
