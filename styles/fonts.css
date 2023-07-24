@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'NowAlt-Black';
+  src: url('/fonts/NowAlt-Black.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'NowAlt-Bold';
+  src: url('/fonts/NowAlt-Bold.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'NowAlt-Light';
+  src: url('/fonts/NowAlt-Light.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'NowAlt-Medium';
+  src: url('/fonts/NowAlt-Medium.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'NowAlt-Regullar';
+  src: url('/fonts/NowAlt-Regular.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'NowAlt-Thin';
+  src: url('/fonts/NowAlt-Thin.otf') format('otf')
+}

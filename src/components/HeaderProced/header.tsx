@@ -34,11 +34,9 @@ const HeaderProced = () => {
         </Link>  
       </div>
       <div>
-        <Link href="/">
-          <div className='mr-8'>
-          <FaHome size={35} className='text-[#568654] mt-5 icon transition-all duration-500 transform hover:scale-125 hover:text-green-500' />
-          </div>
-        </Link>  
+      <Link className='mt-[1.2%]'href="/">
+        <button className="text-black btn-procedimentos ml-5 font-NowAltRegular">Tela inicial</button>
+      </Link>  
       </div>
     </header>
   );

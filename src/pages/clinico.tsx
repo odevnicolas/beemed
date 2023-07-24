@@ -10,12 +10,12 @@ const Clinica: React.FC = () => {
   return ( 
     <div>
       <Header2 activeRoute={activeRoute} />
-      <div className="relative -mt-28">
+      <div className="relative -mt-28 -z-50">
        <div className="">
         <img src="./banner.png" className="min-w-full" alt='Banner'/>
         <Social/>
           <div>
-            <h2 className="text-colorGreen text-[26px] md:mr-[160px] md:relative md:-mt-[520px] md:flex md:justify-end leading-10 font-bold">
+            <h2 className="text-colorGreen text-[26px] md:mr-[160px] md:relative md:-mt-[520px] md:flex md:justify-end leading-10 font-bold font">
                 Nossa plataforma oferece<br />recursos exclusivos que podem levar<br />sua clínica ou hospital a outro<br />patamar de eficiência e qualidade.
             </h2>
             <p className="text-[20px] md:mr-[170px] md:mt-4 md:relative md:flex md:justify-end text-white font-normal leading-8">
@@ -28,7 +28,7 @@ const Clinica: React.FC = () => {
           <div className=" mt-60 mr-80">
             <FormClinico/>
           </div>
-          <div className=" float-right mr-56 md:-mt-[480px] ">
+          <div className=" float-right mr-56 md:-mt-[480px] z-50">
             <img src='./medclinica.png' width={220} height={350}/>
           </div>
         </div>

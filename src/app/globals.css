@@ -3,29 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'NowAltBlack';
-  src: url('/fonts/NowAlt-Black') format('otf');
+  font-family: 'NowAlt-Black';
+  src: url('../../public/fonts/NowAlt-Black.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'NowAltBold';
-  src: url('/fonts/NowAlt-Bold') format('otf');
-}
-@font-face {
-  font-family: 'NowAltLight';
-  src: url('/fonts/NowAlt-Light') format('otf');
-}
-@font-face {
-  font-family: 'NowAltMedium';
-  src: url('/fonts/NowAlt-Medium') format('otf');
-}
-@font-face {
-  font-family: 'NowAltRegular';
-  src: url('/fonts/NowAlt-Regular') format('otf');
-}
-@font-face {
-  font-family: 'NowAltThin';
-  src: url('/fonts/NowAlt-Thin') format('otf');
-}
+
+
 
 
 *{
