@@ -1,19 +1,15 @@
-"use client"
 import React, { useState } from 'react';
 import './header.css';
-import Link from 'next/link'
+import Link from 'next/link';
+import Modal from '@/components/AuthModal/modal';
 import 'tailwindcss/tailwind.css';
 import { Fragment } from 'react';
-import Modal from '@/components/AuthModal/modal';
 
 interface HeaderProps {
   activeRoute: string;
 }
 
-
-const Header: React.FC<HeaderProps> = ({activeRoute}) => {
-  
-
+const Header: React.FC<HeaderProps> = ({ activeRoute }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => {
