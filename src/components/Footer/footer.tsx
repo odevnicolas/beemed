@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import 'tailwindcss/tailwind.css';
 
@@ -5,18 +6,18 @@ import 'tailwindcss/tailwind.css';
 const Footer: React.FC = () => {
   return (
     <footer className="relative mx-auto flex justify-center items-center">
-      <div className=" z-10 bg-footerColor w-[90%] rounded-t-[40px]">
-        <div className="z-10 grid grid-cols-5 gap-5 m-[1%]">
+      <div className=" z-10 bg-footerColor w-full md:w-[90%] rounded-t-[40px]">
+        <div className="z-10 grid md:grid-cols-5 gap-5 m-[1%]">
           <div>
             <img className="z-10 ml-10 mt-[35%]" src="./BeemedLogoC.svg" alt="Logo da Empresa" width={225} />
           </div>
-          <div className="z-10 ml-[20%] mt-[24%] flex flex-col items-start">
+          <div className="z-10 mt-6 md:mt-0 md:ml-[20%] flex flex-col items-start">
             <button className="z-10 mb-2 text-white">Sobre</button>
             <button className="z-10 mb-2 text-white">Cadastro Médico</button>
             <button className="z-10 mb-2 text-white">Cadastro Clínico</button>
             <button className="z-10 text-white">Blog</button>
           </div>
-          <div className="z-10 relative mt-[22%] ml-1">
+          <div className="z-10 relative mt-6 md:mt-0 md:ml-1">
             <p className="z-10 text-white mb-2">Receba novidades!</p>
             <div className="z-10 flex">
               <input
@@ -41,7 +42,7 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="z-10 text-right text-gray-200 text-xs mr-[11em]">
+        <div className="z-10 text-center md:text-right text-gray-200 text-xs md:mr-[11em]">
           <p>© 2023 Beemed HealthtechTecnologia LTDA. Todos os direitos reservados. CNPJ: 42.821.631/0001-11</p>
           <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
             <img className=" -z-40 mt-[-14%]" src="./sobfooter.svg" alt="footerback" width="60%" />

@@ -1,16 +1,17 @@
+/* eslint-disable prettier/prettier */
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react';
 import './header.css';
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
 import { useRouter } from 'next/router';
-import { FaHome } from 'react-icons/fa';
 
 const HeaderProced = () => {
   const router = useRouter();
 
   return (
-    <header className="flex justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
+    <header className="flex flex-col sm:flex-row justify-between items-center py-[1.3%] px-[2%] mt-[1.3%]">
       <div className="ml-[2%] z-10">
         <Link href="/">
           <img src="/BeemedBlack.svg" alt="Logo da Empresa" width={140} height={140} />
