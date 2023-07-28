@@ -10,6 +10,14 @@
   border-radius: 50px;
   width: 150px;
   height: 40px;
-  color:black;
+  color: black;
   font-weight: 500;
+}
+
+/* Media query for screens with a maximum width of 640px */
+@media (max-width: 640px) {
+  .btn-procedimentos {
+    width: 90px;
+    font-size: 10px;
+  }
 }
