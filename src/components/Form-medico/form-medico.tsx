@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from 'react';
 import 'tailwindcss/tailwind.css';
 import { useForm, SubmitHandler } from "react-hook-form"
@@ -24,7 +25,7 @@ const FormMedico = () => {
      Especialidade: ${especialidade}
      CRM: ${crm}
      Assunto: ${mensagem}`;
-    const numeroTelefone = '85998705315'; 
+    const numeroTelefone = '8173265915'; 
 
     const link = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(mensagemPersonalizada)}`;
 

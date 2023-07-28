@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 "use client"
 import React, {useState} from 'react';
 import 'tailwindcss/tailwind.css';
@@ -22,7 +23,7 @@ const FormHome = () => {
      Telefone: ${telefone} 
      Email: ${email} 
      Assunto: ${mensagem}`;
-    const numeroTelefone = '85998705315'; 
+    const numeroTelefone = '8173265915'; 
 
     const link = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(mensagemPersonalizada)}`;
 
