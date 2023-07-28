@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import './header.css';
 import Link from 'next/link';
@@ -66,7 +67,7 @@ const Header: React.FC<HeaderProps> = ({ activeRoute }) => {
           </button>
           <Link className="mt-[1.2%]" href="/cirurgias">
             <button className="text-black btn-procedimentos ml-5 font-NowAltRegular font-NowAlt-Black">
-              77ocedimentos
+              Procedimentos
             </button>
           </Link>
         </div>
