@@ -14,7 +14,7 @@ const Clinica: React.FC = () => {
       <div className="relative -mt-28">
         <div
           style={{
-            backgroundImage: 'url(/banner.png)',
+            backgroundImage: 'url(./Banner.png)',
             backgroundRepeat: 'no-repeat',
           }}
           className="w-full 2xl:h-[45rem] xl:h-[45rem] lg:h-[47rem] md:h-[49rem] sm:h-[49rem] flex items-center justify-center bg-[#212720]"
@@ -48,8 +48,8 @@ const Clinica: React.FC = () => {
         <div className=" 2xl:mt-[10rem] 2xl:mr-0 ">
           <FormClinico />
         </div>
-        <div className="absolute 2xl:right-[20rem] 2xl:top-[35rem] xl:right-[10rem] xl:top-[35rem] lg:invisible md:invisible sm:invisible">
-          <img src="./Medclinica.png" width={220} height={350} />
+        <div className="absolute 2xl:right-[20rem] 2xl:top-[35rem] xl:right-[10rem] xl:top-[35rem] 2xl:visible xl:visible lg:invisible md:invisible sm:invisible">
+          <img src="./MedClinica.png" width={220} height={350} />
         </div>
       </div>
       <div className="bg-BackColor">
