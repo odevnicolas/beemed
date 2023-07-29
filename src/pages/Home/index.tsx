@@ -14,9 +14,9 @@ const Home: React.FC = () => {
       <Header activeRoute={activeRote} />
       <Social />
       <Proced />
-      <div className=" mt-[52%] mb-[5%] ml-[14%] bg-[#9BF798]  rounded-3xl w-[75%] h-[20rem]">
-        <div className=" px-20 py-14">
-          <p className="text-[16px] leading-8 font-normal text-black">
+      <div className=" mt-[52%] mb-[5%] ml-[13%] bg-[#9BF798]  rounded-3xl w-[75%] h-[20rem]">
+        <div className=" px-20 py-10">
+          <p className="text-[16sp] leading-8 font-normal text-black">
             A Beemed sonha em tornar as cirurgias e os
             <br /> procedimentos médicos acessíveis para mais pessoas. Para{' '}
             <br /> alcançar esse objetivo, a empresa negocia <br /> previamente
@@ -25,10 +25,10 @@ const Home: React.FC = () => {
             <br /> e médicos com opções de pagamento facilitadas e valores mais
             atrativos.
           </p>
-          <button className="text-black bg-[#FAFAFA] rounded-xl py-1 px-2 hover:bg-slate-300 mt-5 font-medium">
+          <button className="text-black bg-[#FAFAFA] rounded-xl py-1 px-2 hover:bg-slate-300 mt-[3%] font-medium">
             Fale com a gente !
           </button>
-          <div className=" float-right -mt-[32%] ml-8 ">
+          <div className=" float-right -mt-[32%] ml-10  ">
             <img
               src="./phone5.svg"
               alt=""
