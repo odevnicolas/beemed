@@ -18,7 +18,7 @@ const Medico: React.FC = () => {
         style={{
           backgroundImage: "url(/banner2.png)"
         }}
-        className="w-full h-[75rem] flex items-center justify-center">
+        className="w-full 2xl:h-[75rem] xl:h-[70rem] flex items-center justify-center">
         <img src="med-banner.png" className="2xl:w-[50rem] xl:w-[40rem] lg:w-[30rem] md:w-[25rem] sm:w-[25rem] ssm:w-[17rem]"/>
         <div className="ml-10 ssm:ml-4">
             <h2 className="text-colorGreen 2xl:text-5xl md:text-3xl sm:text-2xl ssm:text-xl">
@@ -33,7 +33,7 @@ const Medico: React.FC = () => {
          </div>
         </div>
 
-         <img src="./letreiro.png" className="absolute 2xl:top-[55rem] xl:top-[60rem] lg:top-[63rem] md:top-[66rem] sm:top-[68rem] ssm:top-[70rem]"/>
+         <img src="./letreiro.png" className="absolute 2xl:top-[55rem] xl:top-[50rem] lg:top-[63rem] md:top-[66rem] sm:top-[68rem] ssm:top-[70rem]"/>
          <div className=" w-auto h-auto py-10">
           <div className=" mt-16 justify-center items-center">
 []       <FormMedico/>
