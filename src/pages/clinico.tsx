@@ -49,12 +49,12 @@ const Clinica: React.FC = () => {
           <FormClinico />
         </div>
         <div className="absolute 2xl:right-[20rem] 2xl:top-[35rem] xl:right-[10rem] xl:top-[35rem] lg:invisible md:invisible sm:invisible">
-          <img src="./medclinica.png" width={220} height={350} />
+          <img src="./Medclinica.png" width={220} height={350} />
         </div>
       </div>
       <div className="bg-BackColor">
         <div className="py-16 px-32 ">
-          <img src="./medal.png" className="ml-24" width={65} height={80} />
+          <img src="./Medal.png" className="ml-24" width={65} height={80} />
           <div className="justify-center items-center">
             <h1 className="text-colorButton text-6xl ml-44 -mt-16 font-medium">
               Com Beemed

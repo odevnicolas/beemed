@@ -12,11 +12,11 @@ const Sobre: React.FC = () => {
       <Header activeRoute={activeRoute} />
       <Social />
       <div className="-z-20 relative">
-        <img src="./beemed.png" className=" -z-30 -mt-[8%]" />
+        <img src="./Beemed.png" className=" -z-30 -mt-[8%]" />
         <div className="relative 2xl:-mt-[50%] py-8 xl:-mt-[50%] lg:-mt-[50%] md:-mt-[50%] sm:-mt-[50%] xsm:-mt-[50%] z-0">
-          <img src="./sobre.png" width={515} height={660} />
+          <img src="./Sobre.png" width={515} height={660} />
         <div className="flex justify-center items-center 2xl:-mt-[45rem] 2xl:z-99 xl:z-99 xl:-mt-[45rem] lg:-mt-[45rem] lg:z-20 md:-mt-[45rem] sm:-mt-[35rem] xsm:-mt-[35rem] md:z-20">
-          <img src="./tablet.svg" width={1000} height={280} />
+          <img src="./Tablet.svg" width={1000} height={280} />
         </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Sobre: React.FC = () => {
           </button>
           <div className=" float-right -mt-[29%] mr-[3%] xl:mr-0 2xl:visible xl:visible lg:invisible md:invisible sm:invisible xsm:invisible">
             <img
-              src="./sobre-container.svg"
+              src="./Sobre-container.svg"
               alt=""
               width={250}
               height={1000}

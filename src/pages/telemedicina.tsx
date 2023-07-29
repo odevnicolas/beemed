@@ -12,7 +12,7 @@ const telemedicina: React.FC = () => {
           <p className='text-3xl md:text-4xl text-center mx-6'>Ainda não estamos com o serviço de <br/> telemedicina disponível, agradecemos a <br/> compreensão enquanto trabalhamos para <br/> estabelecer os procedimentos necessários.</p>
         </div>
         <div className='md:w-1/2'>
-          <img src="./vector3.svg" alt="vector" width={500} />
+          <img src="./Vector3.svg" alt="vector" width={500} />
         </div>
       </div>
       <div className='mt-20'>

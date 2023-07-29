@@ -14,7 +14,7 @@ const exames: React.FC = () => {
           </p>
         </div>
         <div className='md:w-1/2'>
-          <img src="./vector2.svg" alt="vector" className='w-full' />
+          <img src="./Vector2.svg" alt="vector" className='w-full' />
         </div>
       </div>
       <div className='mt-20'>

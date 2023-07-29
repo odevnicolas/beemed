@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           </button>
           <div className=" float-right -mt-[32%] ml-10  ">
             <img
-              src="./phone5.svg"
+              src="./Phone5.svg"
               alt=""
               width={400}
               height={100}
@@ -41,13 +41,13 @@ const Home: React.FC = () => {
       </div>
       <div className="relative ml-[2%]">
         <img
-          src="./flayer.svg"
+          src="./Flayer.svg"
           width={1200}
           height={1100}
           className="inset-0 z-0 -mt-10"
         />
         <div className="absolute inset-0 flex flex-col justify-start">
-          <img src="./texto.svg" width={1470} className="z-0 -mt-[17%]" />
+          <img src="./Texto.svg" width={1470} className="z-0 -mt-[17%]" />
           <div className="ml-10 px-20 py-20 -mt-[20%]">
             <h1 className="text-colorButton text-6xl font-medium">
               Benefícios
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
             </p>
             <div className=" float-right -mt-[35%] ml-[48%]">
               <img
-                src="./doll.svg"
+                src="./Doll.svg"
                 alt=""
                 width={700}
                 height={500}
@@ -94,7 +94,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className=" float-left -mt-[10%] -ml-48">
                   <img
-                    src="./woman.svg"
+                    src="./Woman.svg"
                     alt=""
                     width={800}
                     height={500}

@@ -16,10 +16,10 @@ const Medico: React.FC = () => {
       <div>
         <div 
         style={{
-          backgroundImage: "url(/banner2.png)"
+          backgroundImage: "url(/Banner2.png)"
         }}
         className="w-full 2xl:h-[75rem] xl:h-[70rem] flex items-center justify-center">
-        <img src="med-banner.png" className="2xl:w-[50rem] xl:w-[40rem] lg:w-[30rem] md:w-[25rem] sm:w-[25rem] ssm:w-[17rem]"/>
+        <img src="./Med-banner.png" className="2xl:w-[50rem] xl:w-[40rem] lg:w-[30rem] md:w-[25rem] sm:w-[25rem] ssm:w-[17rem]"/>
         <div className="ml-10 ssm:ml-4">
             <h2 className="text-colorGreen 2xl:text-5xl md:text-3xl sm:text-2xl ssm:text-xl">
               Transforme <br/>a saúde conosco
@@ -33,7 +33,7 @@ const Medico: React.FC = () => {
          </div>
         </div>
 
-         <img src="./letreiro.png" className="absolute 2xl:top-[55rem] xl:top-[50rem] lg:top-[63rem] md:top-[66rem] sm:top-[68rem] ssm:top-[70rem]"/>
+         <img src="./Letreiro.png" className="absolute 2xl:top-[55rem] xl:top-[50rem] lg:top-[63rem] md:top-[66rem] sm:top-[68rem] ssm:top-[70rem]"/>
          <div className=" w-auto h-auto py-10">
           <div className=" mt-16 justify-center items-center">
 []       <FormMedico/>
@@ -41,7 +41,7 @@ const Medico: React.FC = () => {
         </div>
         <div className=" bg-ColorFooter">
           <div className=" py-16 px-32">
-            <img src='./medal.png' className="ml-24" width={65} height={80}/>
+            <img src='./Medal.png' className="ml-24" width={65} height={80}/>
           <div className="justify-center items-center">
             <h1 className="text-colorButton text-6xl ml-44 -mt-16 font-medium acer:font-normal">Com Beemed</h1>
            <p className="ml-44 text-white text-xl leading-[60px] font-normal mt-6 sm:text-base ssm:text-sm">
