@@ -6,26 +6,26 @@ import 'tailwindcss/tailwind.css';
 const Footer: React.FC = () => {
   return (
     <footer className="relative mx-auto flex justify-center items-center">
-      <div className=" z-10 bg-footerColor w-full md:w-[90%] rounded-t-[40px]">
+      <div className=" md:h-auto z-10 bg-footerColor w-full md:w-[90%] rounded-t-[40px]">
         <div className="z-10 grid md:grid-cols-5 gap-5 m-[1%]">
-          <div>
-            <img className="z-10 ml-10 mt-[35%]" src="./BeemedLogoC.svg" alt="Logo da Empresa" width={225} />
+          <div className="lg:flex lg:flex-col lg:justify-center md:flex md:flex-col md:justify-center flex justify-center items-center -mt-[10%]">
+            <img className="z-10 ml-10 mt-[35%] sm:mt-0 sm:mx-auto" src="./BeemedLogoC.svg" alt="Logo da Empresa" width={225} />
           </div>
-          <div className="z-10 mt-6 md:mt-0 md:ml-[20%] flex flex-col items-start">
-            <button className="z-10 mb-2 text-white">Sobre</button>
-            <button className="z-10 mb-2 text-white">Cadastro Médico</button>
-            <button className="z-10 mb-2 text-white">Cadastro Clínico</button>
-            <button className="z-10 text-white">Blog</button>
+          <div className="z-10 items-center flex flex-col mt-3  lg:mt-6 md:mt-0 md:ml-[20%] lg:flex lg:flex-col lg:items-start">
+            <button className="z-10 mb-2 text-white hover:text-colorGreen">Sobre</button>
+            <button className="z-10 mb-2 text-white hover:text-colorGreen">Cadastro Médico</button>
+            <button className="z-10 mb-2 text-white hover:text-colorGreen">Cadastro Clínico</button>
+            <button className="z-10 text-white hover:text-colorGreen">Blog</button>
           </div>
-          <div className="z-10 relative mt-6 md:mt-0 md:ml-1">
-            <p className="z-10 text-white mb-2">Receba novidades!</p>
-            <div className="z-10 flex">
+          <div className="z-10 lg:relative lg:mt-6 md:mt-0 md:ml-1">
+            <p className="z-10 text-white mb-2 text-center text-2xl lg:text-start lg:text-xl">Receba novidades!</p>
+            <div className="z-10 flex justify-center items-center lg:justify-start">
               <input
                 type="text"
                 placeholder="seu melhor email"
-                className="z-10 input rounded-[25px] text-gray-500 pl-3 pr-8 pt-1 pb-1 outline-none drop-shadow-[0_7px_8px_rgba(155,247,152,0.60)]"
+                className="z-10 input rounded-[25px] text-gray-500 pl-3 pr-8 pt-1 pb-1 outline-none drop-shadow-[0_7px_8px_rgba(155,247,152,0.60)] lg:mt-1 mt-[5%] "
               />
-              <button className="z-10 ml-2 absolute right-[-36%] top-[27%] transform -translate-y-1/2">
+              <button className="z-10 -ml-7 lg:ml-2 lg:absolute lg:right-[-36%] lg:top-[27%] lg:transform lg:-translate-y-1/2">
                 <img src="./send.svg" alt="send" width="27%" />
               </button>
             </div>
