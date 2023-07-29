@@ -11,7 +11,7 @@ const Clinica: React.FC = () => {
   return (
     <div>
       <Header2 activeRoute={activeRoute} />
-      <div className="relative -mt-28 -z-50">
+      <div className="relative -mt-28">
         <div
           style={{
             backgroundImage: 'url(/banner.png)',
@@ -52,7 +52,7 @@ const Clinica: React.FC = () => {
           <img src="./medclinica.png" width={220} height={350} />
         </div>
       </div>
-      <div className="bg-BackColor ">
+      <div className="bg-BackColor">
         <div className="py-16 px-32 ">
           <img src="./medal.png" className="ml-24" width={65} height={80} />
           <div className="justify-center items-center">
