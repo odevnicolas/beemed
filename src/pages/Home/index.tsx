@@ -5,6 +5,7 @@ import Footer from '@/components/Footer/footer';
 import Social from '@/components/Social/social';
 import Proced from '@/components/TipoProced/proced';
 import FormHome from '@/components/FormHome/form-home';
+import Link from 'next/link';
 
 const Home: React.FC = () => {
   const activeRote = '/';
@@ -85,9 +86,11 @@ const Home: React.FC = () => {
                     <br /> cadastro conosco e tenha <br /> acesso aos melhores
                     serviços <br /> médicos do mercado.
                   </p>
+                  <Link href="/cirurgias">
                   <button className="text-black bg-[#FAFAFA] rounded-xl py-1 px-2 hover:bg-slate-300 mt-5 font-medium">
                     Procedimentos
                   </button>
+                  </Link>
                 </div>
                 <div className=" float-left -mt-[10%] -ml-48">
                   <img
