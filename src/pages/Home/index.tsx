@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <Header activeRoute={activeRote} />
       <Social />
       <Proced />
-      <div className=" mt-[52%] mb-[5%] ml-[15%]  bg-[#9BF798]  rounded-3xl w-[1070px] h-80">
+      <div className=" mt-[52%] mb-[5%] ml-[14%] bg-[#9BF798]  rounded-3xl w-[75%] h-[20rem]">
         <div className=" px-20 py-14">
           <p className="text-[16px] leading-8 font-normal text-black">
             A Beemed sonha em tornar as cirurgias e os

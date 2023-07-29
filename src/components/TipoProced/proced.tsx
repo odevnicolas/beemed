@@ -14,7 +14,7 @@ const images = [
 const TipoProced: React.FC = () => {
   return (
     <div className="float-right w-[45%] mr-[2%] -mt-[2%] p-10">
-      <div className=" float-left  -ml-[141.5%] mt-[-28%]">
+      <div className=" float-left -ml-[141.5%] mt-[-28%]">
        <Carousel 
        images={images}
        imageClassName="h-[45rem]"
