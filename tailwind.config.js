@@ -38,7 +38,7 @@ module.exports = {
         'custom': '-1.2246467996456087e-15px 20px 18px 0px rgba(155, 247, 152, 0.60)',
       },
       screens: {
-        'acer': '1480px'
+        'ssm': '559px',
       }
     },
   },
