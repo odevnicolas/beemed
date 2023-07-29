@@ -11,15 +11,16 @@ const Clinica: React.FC = () => {
     <div>
       <Header2 activeRoute={activeRoute} />
       <div className="relative -mt-28 -z-50">
-        <div className="">
-          <img
-            src="./banner.png"
-            className="min-w-full lg:h-[650px] md:h-[700px] sm:h-[690px]"
-            alt="Banner"
-          />
+        <div
+          style={{
+            backgroundImage: 'url(/banner.png)',
+            backgroundRepeat: 'no-repeat',
+          }}
+          className="w-full 2xl:h-[45rem] xl:h-[45rem] lg:h-[47rem] md:h-[49rem] sm:h-[49rem] flex items-center justify-center bg-[#212720]"
+        >
           <Social />
-          <div>
-            <h2 className="text-colorGreen text-[26px] md:relative md:-mt-[520px] md:flex md:justify-end leading-10 font-bold font xl:mr-[120px] lg:text-sm lg:mr-[175px] md:text-sm md:mr-[90px] sm:text-sm sm:mr-[160px] sm:relative sm:-mt-[230px] sm:flex sm:justify-end">
+          <div className="2xl:ml-[25rem] 2xl:mt-0 xl:mt-0 xl:ml-[40rem] lg:ml-[10rem] lg:mt-[30rem] md:mt-[30rem] sm:mt-[30rem]">
+            <h2 className="text-colorGreen lg:text-base">
               Nossa plataforma oferece
               <br />
               recursos exclusivos que podem levar
@@ -28,7 +29,7 @@ const Clinica: React.FC = () => {
               <br />
               patamar de eficiência e qualidade.
             </h2>
-            <p className="text-[20px]  md:mt-4 md:relative md:flex md:justify-end text-white font-normal leading-8 xl:mr-[120px] lg:text-sm lg:mr-[100px] md:text-sm md:mr-[15px] sm:text-sm sm:ml-[200px]">
+            <p className="text-white lg:text-sm">
               Se você é proprietário de uma clínica ou hospital,
               <br />
               sabe que manter uma rotatividade constante de
@@ -43,10 +44,10 @@ const Clinica: React.FC = () => {
         </div>
       </div>
       <div className=" w-auto h-auto py-10">
-        <div className=" mt-60 mr-80 md:mt-80 md:mr-0 sm:mt-64 sm:mr-0">
+        <div className=" 2xl:mt-[10rem] 2xl:mr-0 ">
           <FormClinico />
         </div>
-        <div className=" float-right mr-56 md:invisible sm:invisible z-50">
+        <div className="absolute 2xl:right-[20rem] 2xl:top-[35rem] xl:right-[10rem] xl:top-[35rem] lg:invisible md:invisible sm:invisible">
           <img src="./medclinica.png" width={220} height={350} />
         </div>
       </div>
